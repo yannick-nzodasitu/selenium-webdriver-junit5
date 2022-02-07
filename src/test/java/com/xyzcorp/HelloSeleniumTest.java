@@ -18,6 +18,9 @@ public class HelloSeleniumTest {
         chromeDriver = new ChromeDriver();
     }
 
+    /**
+     * This test will go to Google and perform a seach for "Behavior Driven Development" and hit
+      */
     @Test
     public void testpage() {
 
